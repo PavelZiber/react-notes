@@ -45,7 +45,7 @@ gulp.task('default', function() {
 });
 
 gulp.task('test', function() {
-  runSequence('default', function(){
+  runSequence('default', function() {
     run('protractor protractor.conf.js').exec();
   });
 });

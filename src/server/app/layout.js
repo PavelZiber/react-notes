@@ -1,6 +1,8 @@
+'use strict';
+
 import React from 'react';
 
-export default class Html extends React.Component {
+export default class Layout extends React.Component {
 
   render() {
     const {isProduction, version} = this.props;
@@ -24,7 +26,7 @@ export default class Html extends React.Component {
 
 }
 
-Html.propTypes = {
+Layout.propTypes = {
   isProduction: React.PropTypes.bool.isRequired,
   version: React.PropTypes.string.isRequired
 };

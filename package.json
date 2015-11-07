@@ -16,6 +16,8 @@
     "compression": "^1.4.0",
     "css-loader": "^0.15.1",
     "express": "^4.11.2",
+    "express-validator": "^2.18.0",
+    "body-parser":"^1.14.1",
     "eslint": "^0.23.0",
     "eslint-plugin-react": "^2.0.1",
     "extract-text-webpack-plugin": "^0.8.0",
