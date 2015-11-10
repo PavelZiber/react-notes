@@ -7,11 +7,11 @@ npm install -g bower
 
 npm install -g protractor
 
-# Instalation
+webdriver-manager update --standalone
+
+# Installation
 
 npm install
-
-webdriver-manager update --standalone
 
 # Run development server
 gulp
