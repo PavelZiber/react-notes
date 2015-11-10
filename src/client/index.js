@@ -1,5 +1,12 @@
-import React from 'react';
-import Main from './main';
+import * as React from 'react';
+import Router from './router/router';
+import {render} from 'react-dom';
+require('babel/register');
 
 const app = document.getElementById('app-root');
-React.render(<Main />, app);
+
+Router().run((Handler, state) => {
+  render(<Handler />, app);
+});
+
+

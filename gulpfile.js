@@ -23,7 +23,6 @@ gulp.task('build-webpack-dev', webpackDevServer(makeWebpackConfig(true)));
 gulp.task('eslint', function() {
   return gulp.src([
     'gulpfile.js',
-    'tests/*.js',
     'src/**/*.js',
     'webpack/*.js'
   ])

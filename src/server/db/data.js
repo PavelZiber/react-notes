@@ -8,6 +8,16 @@ export default {
     {'en':'Talk slow but think quick.', 'cs': 'Mluv pomalu ale přemyšlej rychle.'}
   ],
   dictionary : {
-    'rules_of_live': {'en':'Rules of live', 'cs':'Pravidla života'}
+    'notes_title': {'en':'Notes', 'cs':'Poznamky'},
+    'label_en' : {'en':'English', 'cs':'Anglický'},
+    'label_cs' : {'en':'Czech', 'cs':'Český'},
+    'add_note' : {'en':'add', 'cs':'přidej'},
+    'edit_note' : {'en':'edit', 'cs':'uprav'},
+    'delete_note' : {'en':'delete', 'cs':'smaž'},
+    'invalid_input' : {'en':'invalid input!', 'cs':'pole je nevalidní'},
+    'save_note' : {'en':'save', 'cs':'uložit'},
+    'cancel' : {'en':'cancel', 'cs':'zrušit'},
+    'fill_note' : {'en':'fill note...', 'cs':'vypln poznamku...'},
+    'confirm_delete' : {'en':'Do you really want to delete note?', 'cs':'Chcete opravdu smazat poznamku?'}
   }
 };

@@ -6,6 +6,7 @@ import util from 'util';
 
 var router = express.Router();
 router.get('/notes', noteList);
+router.get('/init', initData);
 router.get('/notes/:id', noteDetail);
 router.get('/dictionary', dictionaryList);
 router.post('/notes', addNote);
@@ -50,6 +51,11 @@ function findNoteById(res, id) {
 
 function noteList(req, res, next) {
   showSuccess(res, data.notes);
+}
+
+function initData(req, res, next) {
+  var dataResult = {dictionary : data.dictionary};
+  showSuccess(res, dataResult);
 }
 
 function noteDetail(req, res, next) {
