@@ -46,6 +46,7 @@ export function deleteNote(id) {
       type: actionType.NOTE_DELETE,
       data: id
     });
+    Router().refresh();
     redirect('/');
   }).catch(handleError);
 }
